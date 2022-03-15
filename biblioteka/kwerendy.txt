@@ -1,0 +1,4 @@
+SELECT tytul FROM ksiazki WHERE wydawnictwo = "Ossolineum";
+SELECT ksiazki.Tytul, autorzy.Nazwisko from ksiazki, autorzy WHERE ksiazki.AutorID = autorzy.IDAutor; 
+SELECT egzemplarze.IDEgzemplarz, ksiazki.Tytul FROM egzemplarze, ksiazki WHERE egzemplarze.DoWypozyczenia = '0';
+INSERT INTO autorzy VALUES ('3', 'Adam', 'Asnyk');

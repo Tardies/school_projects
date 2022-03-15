@@ -1,0 +1,4 @@
+insert into ogloszenie (uzytkownik_id, kategoria, podkategoria, tytul, tresc) values ('1', '2', '0', 'Celine Dion', 'Sprzedam CD piosenkarki'); 
+select tytul, tresc from ogloszenie where kategoria = 1 AND podkategoria = 13;
+create user 'andrzej'@'localhost' identified by 'xsw23';
+grant select, insert, delete on ogloszenie to 'andrzej'@'localhost';

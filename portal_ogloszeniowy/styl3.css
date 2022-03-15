@@ -1,0 +1,40 @@
+#baner {
+    background-color: #00839C;
+    color: white;
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    height: 80px;
+}
+#lewy {
+    background-color: #20D9FB;
+    width: 30%;
+    height: 750px;
+    float: left;
+}
+#prawy {
+    background-color: #00BDE2;
+    width: 70%;
+    height: 750px;
+    float: right;
+}
+#stopka {
+    background-color: #00839C;
+    color: white;
+    text-align: right;
+}
+img {
+    padding: 30px;
+    border: 2px solid blue;
+}
+link {
+    color: black;
+}
+link:hover {
+    color: white;
+}
+#przycisk {
+    background-color: blue;
+    color: white;
+    border: none;
+    margin: 20px;
+}

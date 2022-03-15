@@ -1,0 +1,3 @@
+select id, imie, nazwisko, choroba from pacjenci;
+select imie, nazwisko, leki_przepisane, opis from pacjenci where id = '1';
+select imie, nazwisko, from pacjenci where choroba = 'J05';
